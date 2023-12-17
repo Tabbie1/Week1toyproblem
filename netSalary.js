@@ -16,6 +16,8 @@ function salaryPayment(basicSalary,benefits){
    }
      
 //introduce conditions and ranges for payee
+const taxablePay = grossSalary-nssf
+
    if (taxablePay<=24000){
     payee=0.01*taxablePay;
 }
@@ -87,4 +89,18 @@ else {
     nhif=1700;
 }
 
+
+//The final, overall output that is displayed upon searching 
+const netSalary= grossSalary -(payee+nhif+nssf);
+
+return `
+        Payee       : ${payee},
+        NHIF        : ${nhif},
+        NSSF        : ${nssf},
+        Gross Salary: ${grossSalary},
+        Net Salary  : ${netSalary}`
+
+
 }
+
+console.log(salaryPayment(50000,10000));
