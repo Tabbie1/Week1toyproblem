@@ -1,7 +1,6 @@
 # Toy Problem
 
 ## Author: Tabitha Muriithi
-
 # Student Grade
   This assignment requires one to create a js program which gives various grades based on students' marks. When the marks are below 40 points, the program should assign the student an "E" grade. If the student scores between 40 and 49 points, the programs should assign a grade of "D". If the score is between 49 and 59 points, a grade of "C" is assigned. A range of between 60 and 79 points attracts a "B" grade. Lastly, students scoring above 79 points are awarded an "A" grade by the program.
 
@@ -43,6 +42,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 
 ## Author: Tabitha Muriithi
 # Speed
@@ -89,7 +90,7 @@ SOFTWARE.
 
 
 # Net Salary
-
+This assignment list various details pertaining to employees' income. They include PAYE rates, NHIF rates, NSSF rates. The question requires one to write a program that calculates payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
 ## Set-up Instructions
 From the repository titled "Week1toyproblem", click the "Code" icon in green and select the SSH option
