@@ -89,9 +89,13 @@ else {
     nhif=1700;
 }
 
+//Introduce housing levy rates
+
+let housingLevy = 0.015*grossSalary
+
 
 //The final, overall output that is displayed upon searching 
-const netSalary= grossSalary -(payee+nhif+nssf);
+const netSalary= grossSalary -(payee+nhif+nssf+housingLevy);
 
 return `
         Payee       : ${payee},
