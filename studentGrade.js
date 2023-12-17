@@ -12,4 +12,8 @@ function studentGrade(score){
     else if (score>=49 && score <=59){
         return 'C'
     }
+    //add fourth condition
+    else if (score>=40 && score <=49){
+        return 'D';
+    }
 }
