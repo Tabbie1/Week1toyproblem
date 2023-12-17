@@ -8,4 +8,8 @@ function studentGrade(score){
     else if (score>=60 && score<=79){
         return 'B';
     }
+    //add third condition
+    else if (score>=49 && score <=59){
+        return 'C'
+    }
 }
