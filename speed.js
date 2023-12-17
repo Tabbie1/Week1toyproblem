@@ -20,7 +20,14 @@ function speedDetector(reading){
             return`Points: ${demeritPoints}`;
 
         } 
-      
+        //add condition for demeritPoints >12 points 
+        else if(demeritPoints>=12){
+            return 'License suspended';
+        }
+        //add a condition for readingLimit>70 but <75
+        else {
+            return "Ok";
+        }
 
 
 
