@@ -14,7 +14,7 @@ function speedDetector(reading){
         let demeritPoints = 0;
             const excessSpeed = reading - readingLimit;
             demeritPoints = Math.floor(excessSpeed / 5)
-        }
+        
         //Calculate demeritPoints if speed>70. However, the demeritPoints should be less than 12
         if (demeritPoints > 0 && demeritPoints<12) {
             return`Points: ${demeritPoints}`;
@@ -29,9 +29,10 @@ function speedDetector(reading){
             return "Ok";
         }
 
-
+    }
 
    
 }
+console.log(speedDetector(135));
 
 
