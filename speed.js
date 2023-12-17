@@ -33,6 +33,6 @@ function speedDetector(reading){
 
    
 }
-console.log(speedDetector(135));
+
 
 

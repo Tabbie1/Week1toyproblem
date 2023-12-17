@@ -21,3 +21,4 @@ function studentGrade(score){
         return 'E';
     }
 }
+console.log(studentGrade(45));
