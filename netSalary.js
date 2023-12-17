@@ -7,4 +7,12 @@ function salaryPayment(basicSalary,benefits){
     let nssf = 0;
     let nhif=0;
     let payee=0;
+// introduce conditions for nssf
+    if (grossSalary<=18000){
+        nssf = 0.06 * grossSalary
+   }
+   else{
+       nssf=1080;
+   }
+     
 }
